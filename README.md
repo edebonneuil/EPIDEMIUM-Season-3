@@ -11,7 +11,7 @@ Add your projects Here :
 
 5 Create A Pull request
 
-6 validate different steps + Merge 
+6 Validate steps + Merge 
 
 7 Check you project is visible from https://github.com/Epidemium/Season-3
 
