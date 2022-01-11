@@ -9,10 +9,6 @@ Add your projects Here :
 
 4 Put your files in this folder
 
-5 Create A Pull request
-
-6 Validate steps + Merge 
-
-7 Check you project is visible from https://github.com/Epidemium/Season-3
+5 Check you project appear in Forks : https://github.com/Epidemium/EPIDEMIUM-Season-3
 
 Congrats !
