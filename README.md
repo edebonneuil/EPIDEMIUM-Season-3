@@ -9,6 +9,6 @@ Add your projects Here :
 
 4 Put your files in this folder
 
-5 Check you project appear in Forks : https://github.com/Epidemium/EPIDEMIUM-Season-3
+5 Check you project appear in https://github.com/Epidemium/EPIDEMIUM-Season-3/network/members
 
 Congrats !
