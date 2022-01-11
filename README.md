@@ -3,12 +3,8 @@ Add your projects Here :
 
 1 Fork  
 
-2 Select "ADD File" 
+2 Put your files in this folder
 
-3 Type the name of your project +"/" (to create a folder)
-
-4 Put your files in this folder
-
-5 Check you project appear in https://github.com/Epidemium/EPIDEMIUM-Season-3/network/members
+3 Check you project appear in https://github.com/Epidemium/EPIDEMIUM-Season-3/network/members
 
 Congrats !
