@@ -1,0 +1,203 @@
+<html>
+<body bgcolor="white" font="Verdana">
+<p align="center"><img src="opendata4health/main_image.jpg" width="60%" alt="OpenData4Health"></p>
+<h1>What is OpenData4Health?</h1>
+OpenData4Health is a worldwide and endless hackathon to see how to reduce death and diseases based on open data.
+<br>Anyone can participate at any time. In simple terms:
+<ul>
+<li>We do Y vs X where Y= mortality at fine granularity, X=good and bad "risk" factors</li>
+<li>When a probable link is found between X and Y then the link with health conditions is investigated</li>
+</ul>
+The project started in 2021 as a project of the <a href="http://longevityalliance.org">International Longevity Alliance</a> and <a href="https://app.jogl.io/program/epidemium3">Epidemium</a>. 
+<mark>We encourage universities and institutions from every country to join</mark> - health must be improved everywhere. This is a serious project that can be part of studies related to public health, environment, graphics, communication, data science, data management, mathematics, statistics, actuarial sciences, public health, and much more. It is free data, there is no patent, anyone can contribute freely, put it on one's resume, and contribute to a better health.
+<p>Interestingly, we found that the epidemiologist <a href="http://www.slate.fr/tribune/47017/sante-atlas-donnees-publiques" target="_new">Antoine Flahaut had expressed his desire for such a citizen-science project back in 2011</a>!
+
+<h1>How to join ?</h1>
+<ul>
+<li>Register on <a href="https://app.jogl.io/signup" target="_new"><mark>JOGL</mark></a> ("Just a giant lab")
+then indicate <a href="https://app.jogl.io/project/855?t=needs" target="_new"><b>here, your help on one of the needs</b></a></li>
+<li>Indicate in the <a href="https://www.facebook.com/groups/609421200390866" target="_new"><mark>facebook/metaverse</mark> group</a> how you wish to help</li>
+<li>Register to the <a href="https://epidemium.slack.com/join/shared_invite/zt-vyaih6kn-1BETTP6hcGpl2IYLSpliOA#/shared-invite/email" target="_new"><mark>slack</mark> group</a> 
+then indicate <a href="https://app.slack.com/client/T0496CWEP/C02KFE07CRM/thread/C02KFE07CRM-1639318969.060000" target="_new"> in slack</a> how you wish to participate (better do things twice, to be well identified)</li>
+<li>Indicate <a href="https://www.linkedin.com/groups/12590482/" target="_new">in <mark>Linkedin</mark></a> that you are happy to participate</li>
+</ul>
+OpenData4Health is related to another project launched in the framework of Epidemium: <a href="#NEOS"><mark>NEOS</mark> - described below</a> - please do not hesitate to <a href="https://app.jogl.io/project/835?t=needs" target="_new">apply</a> as well!
+<p></p>
+<p>&nbsp;</p>
+<hr>
+<h1>Essential achievements so far</h1>
+<h2>Initiation</h2>
+The project was initiated in 2015 by <a href="https://web.archive.org/web/20190518200624/http://wiki.epidemium.cc/wiki/Baseline" target="_new">superimposing cancer risks and geographic factors worldwide at a large granularity level</a> (country/state/region/department).
+This proved that known factors for cancer risks could be found with this approach, and that finer geographic granularity was needed.
+This is how in 2021 the project was continued but at small granularity, focusing on all-cause mortality for both an easier access to fine-granularity data and a larger scope in terms of health, and starting with France to make the project more amenable. One country is not enough however to grab the whole picture of what impacts health globally so the project needed to be extended. This is how OpenData4Health was born.
+What follows is a snapshot of the project.
+
+<h2>France</h2>
+Mortality, when accounting by age and gender, is not homogeneous: [<i>Pol Sans (Barcelona, Spain) and Edouard Debonneuil (Paris, France)</i>]
+<p align="center"><a href="opendata4health/France/all-cause-mortality.png" target="_new"><img src="opendata4health/France/all-cause-mortality.png" height="400" class="center"></a></p>
+<br>Of note, the two lines of graphs are the same except that there is one dot per city or one dot per department/canton/city. The graphs on the right are even the same with different point sizes. This highlights the difficulty to visually appreciate nuances and the need to use mathematics (based on mixtures of binomial distributions) to refine the superposition between Y (mortality) and X (geographic factors) once visual analysis helps grossly chose X - just like with most database analyses.
+We developped an <a href="http://un-poco.pol-ar.com/epidemium3/city_indicator.html" target="_new">interactive map at city level</a> (slow to appear). The data on these maps average deaths and populations over 2014-2019, more granular statistics are being precisely collected by Oscar Garibo Orts (Valencia, Spain) for modeling.
+<p>
+<h3><u>Why</u> is mortality low in Paris Bordeaux Lyon and high in Lille? Why is mortality high in the North of France?</h3>
+<p>
+Air pollution, water pollution, behaviors, wealth, access to healthcare...
+<br>Does a first look at maps of geographic factors in France provide potential clues?
+<p><i>Of note, this part will evolve as we focus on more factors</i>
+<table><tr><td>
+
+<table border=1 width=250 align=left><tr><td><i>Air pollution</i>
+<a href="https://www.francetvinfo.fr/monde/environnement/la-pollution-de-lair-troisieme-cause-de-mortalite-en-france-apres-le-tabac-et-lalcool_1718589.html" target="_new">would</a>
+be a key cause for mortality after alcohol and tobacco. PM2.5 - particulate matter with particles of aerodynamic diameter smaller than 2.5 µm - <a href="https://www.francetvinfo.fr/monde/environnement/la-pollution-de-lair-troisieme-cause-de-mortalite-en-france-apres-le-tabac-et-lalcool_1718589.html
+mean_annual_PM2.5.png" target="_new">would</a> lead to 9% of deaths.
+<a href="opendata4health/France/mean_annual_PM2.5.png" target="_new"
+><img src="opendata4health/France/PM2.5.png" width=250></a>
+The high concentration in the North half of France correlates with overmortality (even if it would suggest overmortality in Paris).
+
+Let's look at neighboring countries:
+<a href="opendata4health/France/european_air_life_expectancy_loss.gif" target="_new"
+><img src="opendata4health/France/european_air_life_expectancy_loss.gif" width=250></a>
+<a href="opendata4health/France/european_life_expectancy.png" target="_new"
+><img src="opendata4health/France/european_life_expectancy.png" width=250></a>
+Visually, the link is far from obvious, possibly due to confounding factors.
+One would notably expect North of Belgium and North of Italy to have a low life expectancy.
+
+</td></tr></table>
+
+<table border=1 width=250 align=left><tr><td><i>Alcool</i> <a href="https://www.futura-sciences.com/sante/actualites/medecine-alcool-cancerigene-meme-petite-dose-18335/"
+target="_new">would</a> cause caucer even at small doses.
+<a href="opendata4health/France/alcohol.png" target="_new"
+><img src="opendata4health/France/alcohol.png" width=250></a></td></tr></table>
+
+<table border=1 width=250 align=left><tr><td><i>Smoking</i> <a href="https://www.lemondedutabac.com/on-fume-plus-dans-les-regions-frontalieres-sante-publique-france/"
+target="_new">would</a> be more prevalent at the borders of France.
+<a href="opendata4health/France/smoking_daily.png" target="_new"
+><img src="opendata4health/France/smoking_daily.png" width=250></a>
+
+See how a slightly different color, <a href="https://sante.lefigaro.fr/article/le-tabagisme-recule-en-france/"
+target="_new">here</a> gives the impression of a different map:
+<a href="opendata4health/France/smoking.png" target="_new"
+><img src="opendata4health/France/smoking.png" width=250></a>.
+This shows the importance of knowing thresholds at which a substance is midly and strongly dangerous, and of finding fine granularity geographic data.
+
+</td></tr></table>
+
+<table border=1 width=250 align=left><tr><td><i>Water pollution/soils</i>. Arsenic, above 25 mg / kg or soil, <a href="https://www.has-sante.fr/jcms/p_3193513/fr/sols-pollues-par-l-arsenic-information-a-destination-des-habitants"
+target="_new">would</a> cause various diseases.
+<a href="opendata4health/France/arsenic_pollution.jpg" target="_new"
+><img src="opendata4health/France/arsenic_pollution.jpg" width=250></a></td></tr></table>
+
+<table border=1 width=250 align=left><tr><td><i>Water pollution</i>. Pesticides by city
+<a href="https://www.mediapart.fr/journal/france/040719/commune-par-commune-la-carte-de-france-des-pesticides?onglet=full" target="_new"
+><img src="opendata4health/France/pesticides_by_city.png" width=250></a>
+
+
+</td></tr></table>
+<ul>
+<li>Access to healthcare:
+<li>Alcohol, tobacco, obesity: [<i>Adrien Helary (Paris, France)</i>]
+<li>Wealth:
+<li>Other:
+</ul>
+</td></tr></table>
+
+Of note, it may be useful also to decompose Y:
+<ul>
+<li> Mortality by gender (mortality or <a href="https://www.pourquoidocteur.fr/Articles/Question-d-actu/4781-Esperance-de-vie-les-ecarts-se-creusent-entre-les-regions
+" target="_new">here</a> life expectancy)
+<br>
+Males:<a href="opendata4health/France/male_life_expectancy_by_dpt.png" target="_new"
+><img src="opendata4health/France/male_life_expectancy_by_dpt.png" width=250></a>
+Females:<a href="opendata4health/France/female_life_expectancy_by_dpt.png" target="_new"
+><img src="opendata4health/France/female_life_expectancy_by_dpt.png" width=250></a>
+
+<li>Cancer risks <br>They are being retrieved at canton level based on published cancer maps [<i>Sylvain Sorrin (Bordeaux, France)</i>]
+<li>Other disease risks <br>They are being retrieved at department level (CépiDC website) [<i>Ayesha Kawser (Toronto, Canada)</i>]
+</ul>
+
+<h2><a name="air_pollution">The impact of air pollution on mortality was already studied</a></h2>
+
+Facing multiple possible explanations for mortality, it is good to rely on the scientific litterature and to use macro-data to adjust "Y=f(X)" rather than fully discover what X should be considered and how they should be considered (mean/max...).
+
+<p>A <a href="https://www.actu-environnement.com/media/pdf/news-27052-etude-invs-impact-sanitaires-pollution-air.pdf"
+target="_new">study</a> that focused on fine particles versus mortality in France happens to be a good basis for OpenData4Health. We here go through various part of their report and synthesis while highlighting what serves the OpenData4Health more generally and we add comments in <i>italics</i>:
+<ul>
+<li><table bgcolor="lightgray"><tr><td valign=top align=center><i>After<br> biological<br> aging,
+<p>Après le<br> vieillissement<br> biologique,</i></td>
+<td><img src="opendata4health/France/top3causes.png" width=300></td>
+<td><i>After biological aging processes,</i> <b>smoking</b> would be the first cause of death (78,000 deaths in 2010), then <b>alcohol</b>, then <b>air pollution</b> (48,000 deaths in 2010)
+<i>This is according to Sante Public France, a respectful organization, but of course it depends on how causes are counted.</i>
+<br>One may choose not to drink nor smoke, to some degree, but air pollution is imposed to us. This makes air pollution an interesting topic.
+<p><i>Of note, pointing at sources of overmortality shouldn't make us forget to also look at methods to improve health and overcome some aspects of biological aging. For example, regular physical activity, consumption of fruits and vegetables, adequate levels of vitamin C, vitamin D3 and zinc may improve the body and notably the immune system in various ways and help avoid numerous chronic diseases.</i>
+</td></tr></table></li>
+<li><table bgcolor="lightgreen"><tr><td><img src="opendata4health/France/air-pollution-thresholds.png" width=400></td>
+<td>It is interesting to see that the regulatory and WHO thresholds for air pollutants are very different. We here focus on the latter as they are more strict.
+<br>Among air pollutants, europeans are mostly at risk from fine particles (PM2.5, and to a lesser extent PM10), ozone (O3) and benzo(a)pyrene (BaP, notably <a href="https://www.sciencedirect.com/science/article/pii/S0160412021000234" target="_new">causes breast cancer</a>).
+Let us focus on PM2.5 and estimate the effect on mortality.
+</td></tr></table></li>
+<li><table bgcolor="lightgray"><tr><td><img src="opendata4health/France/PM2.5.png" width=300></td>
+<td>A complex model ('Gazel-Air') that mixes measures and chemistry transportation rules was developped by Aasqa in 2010-2012 to estimate annual PM2.5 concentration from 1989 to 2008 in squares of 2 km sides. The study interpolated them to have concentrations at city level in 2007-2008 (2006 was a special year due to a heat wave)
+-<i>all this data as well as the European data mentioned in the study may be very relevant for OpenData4Health!</i>.
+Of note, the correlation between PM observed in 1998-2008 and modeled by Gazel-Air is of 0.75 for PM10 but only 0.42 for PM2.5. An estimation of PM2.5 is 0.7xPM10.
+</td></tr></table>
+<li><table bgcolor="lightgreen"><tr><td><nobr>y<sub>2</sub>-y<sub>1</sub>=y<sub>1</sub>(e<sup>beta (x2-x1)</sup> -1)</nobr>
+<nobr>beta = ln(RR)/10</nobr></td>
+<td>
+Then a model of mortality as a function of PM2.5 is used: RR=1.15 [1.05 : 1.25].
+<i>Concretely, if average PM2.5 moves from 20 to 10 µg/m<sup>3</sup> in some area, the model expects mortality rates to be reduced by 13% (somewhere between 5% and 20%).
+If PM2.5 moves from 10 to 20 µg/m<sup>3</sup>, mortality is expected to increase by 15% (between 5% and 25%)</i>
+<br>In details, the study indicates that the WHO recommends to use a relative risk RR of 1.07 [1.04 : 1.09] from the 2014 meta-analysis of Hoek et. al. for an increase of 10 µg/m<sup>3</sup>.
+However, a meta-analysis of more than 22 european studies including in France indicate this stronger impact on mortality.
+</td></tr></table>
+<li><table bgcolor="lightgray"><tr><td><a href="opendata4health/France/more_life_expectancy_with_less_PM2.5.png"
+target="_new"><img src="opendata4health/France/less_mortality_with_less_PM2.5.png" width=250><img 
+src="opendata4health/France/more_life_expectancy_with_less_PM2.5.png" width=250></a></td>
+<td>They obtain such figures, and that overall 17,000 deaths could be avoided by reaching the WHO guidelines and up to 48,000 if no more PM2.5 was produced by humans.
+</td></tr></table>
+<li><table bgcolor="lightgreen"><tr><td><a href="opendata4health/France/more_life_expectancy_with_less_PM2.5_v2.png"
+target="_new"><img src="opendata4health/France/less_mortality_with_less_PM2.5_v2.png" height=200><img 
+src="opendata4health/France/more_life_expectancy_with_less_PM2.5_v2.png" height=200><img 
+src="opendata4health/France/less_mortality_with_less_NO2_v2.png" height=200></a></td>
+<td>
+In 2021, a <a href="https://www.actu-environnement.com/media/pdf/news-27052-etude-invs-impact-sanitaires-pollution-air.pdf" target="_new">study</a>
+performed a similar analysis on PM2.5 <b>and NO2</b> following the first Covid-related confinement. Similarly to <a href="http://www.driee.ile-de-france.developpement-durable.gouv.fr/IMG/pdf/presentation_focus_air_-_dfo_-_vdef.pdf" target="_new">previous studies</a>, it is estimated that
+<ul>
+<li>PM2.5 accounts for about 7% of deaths
+<li>NO2 accounts for about 1% of deaths
+<li>overall, air pollution accounts for about 9% of deaths.
+</ul>
+</td></tr></table>
+<li><table bgcolor="lightgray"><tr><td><img src="opendata4health/France/PM2.5_action.png" height=200></td>
+<td>Back in 2017 already, <a href="http://www.driee.ile-de-france.developpement-durable.gouv.fr/IMG/pdf/presentation_focus_air_-_dfo_-_vdef.pdf" target="_new">this</a> was leading to analysis of causes and action plans to monitor them and reduce risks. Impressive!
+</td></tr></table>
+
+<!-- projet européen Hrapie,
+recommandant des RR pour les analyses coûts-bénéfices des PM, de l’ozone et
+du NO2 [17] //-->
+</ul>
+
+<h2><a name="NEOS">The NEOS project</a></h2>
+
+Is mortality risk linked with average PM2.5 concentration for the past 10 years? PM2.5 peaks 3 to 5 years earlier?
+<p>This "PM2.5" example (thin particulate matter in the air) shows how important it is to gather such knowledge to compare Y with the many potential risk factors X.
+Luckily, the <a href="https://www.iarc.who.int/" target="_new">International Agency for Research on Cancer</a> (IARC) investigates the link between cancers risks and <a href="https://monographs.iarc.who.int/wp-content/uploads/2019/07/Classifications_by_cancer_site.pdf" target="_new">various agents</a>, and freely provides <a href="https://monographs.iarc.who.int/monographs-available/" target="_new">monographs</a> that contain such knowledge.
+<br>The NEOS collaborative project gathers such knowledge for the use of each X and tries to define a standard for interoperable medical data that embbed such agents.
+Please <mark><a href="https://app.jogl.io/project/835?t=needs" target="_new">apply here for the NEOS project</a>!</mark> The two projects are very linked as you can see.
+<p align="center"><a href="opendata4health/NEOS/IARC-cancer-factors.png" target="_new"><img src="opendata4health/NEOS/IARC-cancer-factors.png" height=400></a></p>
+<p><i><a href="https://app.jogl.io/project/835?t=needs" target="_new">NEOS project</a>, with Pascal Deschaseaux (Lyon, France), Sébastien de Longeaux (Lyon, France), Rachel Aronoff (Lausanne, Switzerland), Edouard Debonneuil (Paris, France) and others</i>
+
+<h2>How to model Y=f(X)</a></h2>
+As seen above, our eyes do not know use to use micro-data: to see red or green parts of France, mortality had to be aggregated over time and space. Models know however.
+Also, many factors X can grossly explain why mortality is particular in some parts of France - models can disentangle risk factors more precisely than our eyes.
+<p>It is important for models to be well guided with the right appreciation of uncertainty for each data. Then, simple models such as a logistic regression can be used, or strong machine learning models with shap values and/or ACV to show the main risk explanations that the model found for each city [<i>Adrien Helary (Paris, France)</i>] 
+
+
+
+
+
+
+<h2>Germany</h2>
+<i>Some data was prepared for 2022</i>
+<h2>USA</h2>
+<i>Some data was prepared for 2022</i>
+</body>
+</html>
