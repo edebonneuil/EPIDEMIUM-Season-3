@@ -1,10 +1,10 @@
 # OpenData4Health
 
-A summary to appreciate who did what and where to find data is the following:
+Where to find what and who did what:
 * Summaries
-  * The same poster is in three formats: [ppt](OpenData4Health-poster.pptx) [pdf](OpenData4Health-poster.pdf) [image](OpenData4Health-poster.png)
-  * Here is the video, that also shows the poster: [video](OpenData4Health-video.mp4)
-  * The content of the website is copied here ("-web"): [html](OpenData4Health-web.html) (Of note, due to the github limits a redirection is introduced at the beginning of the html file for it to go to opendata4health.org)
+  * The poster is here above in three formats: [ppt](OpenData4Health-poster.pptx) [pdf](OpenData4Health-poster.pdf) [image](OpenData4Health-poster.png)
+  * The video is here above and also shows the poster: [video](OpenData4Health-video.mp4)
+  * OpenData4Health.org was created and the content is copied here above ("-web"): [html](OpenData4Health-web.html) (Of note, due to the github limits a redirection is introduced at the beginning of the html file for it to go to opendata4health.org)
 * Organization of files and of work
   * The "animation" folder contains i) a summary of Epidemium v1 and v2 data for such challenges, ii) the animation of projects together ("GeoStatus") which lead to the coupling and synergy of NEOS and OpenDataForHealth, and items shared during meetings
   * The "France" folder is really where all the data and code is. Three pieces of code are key:
