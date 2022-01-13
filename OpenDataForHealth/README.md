@@ -12,7 +12,5 @@ A summary to appreciate who did what and where to find data is the following:
     * the CépiDC scrapper in R in DiseaseRisks byDpt (the python scrapper was abandonned) by Ayesha Kawser
     * the air pollution scrapper in GreenOrNot by Pol Sans
     * A code in ongoing to scrapp images of cancer risks by canton, by Sylvain Sorrin
-  * The data was assembled by Edouard Debonneuil
-  * The link with NEOS, to know how to use "X" adequately in mortality = f(X), was established with Pascal Dechaseaux, Sébastien de Longeaux, Rachel Aoronoff
-  * The statistics for SMR where put in place with the help of Adrien Helary
-  * The following organisations helped promote the project: International Longevity Alliance (official communications), the organizers of Epidemium (official communications), NewClin (official communications), the World Talent Economic forum (invited Edouard Debonneuil to present). They also plan to take part in the project, as well as AGIR and HEALES.
+  * The data was assembled by Edouard Debonneuil. The statistics for SMR where put in place with the help of Adrien Helary
+  * The link with NEOS, to know how to use "X" adequately in mortality = f(X), was established with Pascal Dechaseaux, Sébastien de Longeaux, Rachel Aoronoff. The following organisations helped promote the project: International Longevity Alliance (official communications), the organizers of Epidemium (official communications), NewClin (official communications), the World Talent Economic forum (invited Edouard Debonneuil to present). They also plan to take part in the project, as well as AGIR and HEALES.
