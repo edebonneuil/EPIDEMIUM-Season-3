@@ -4,7 +4,7 @@ Where to find what and who did what:
 * **Summaries**
   * The poster is here above in three formats: [ppt](OpenData4Health-poster.pptx) [pdf](OpenData4Health-poster.pdf) [image](OpenData4Health-poster.png)
   * The video is here above and also shows the poster: [video](OpenData4Health-video.mp4)
-  * OpenData4Health.org was created and the content is copied here above ("-web"): [html](OpenData4Health-web.html) (Of note, due to the github limits a redirection is introduced at the beginning of the html file for it to go to opendata4health.org)
+  * [OpenData4Health.org](https://www.opendata4health.org) was created and the content is copied here above (OpenData4Health-web, with a redirection added at the top of the html file)
 * **Organization of files**
   * The "France" folder is really where all the data and code is. Three pieces of code are key:
     * AllCauseMortality byCity SMR calculation (to make the map with statistical over and under mortality) by Edouard Debonneuil
