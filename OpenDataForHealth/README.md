@@ -9,9 +9,9 @@ Where to find what and who did what:
   * The "France" folder is really where all the data and code is. Three pieces of code are key:
     * AllCauseMortality byCity SMR calculation (to make the map with statistical over and under mortality) by Edouard Debonneuil
     * The CépiDC scrapper in R in DiseaseRisks byDpt (the python scrapper was abandonned) by Ayesha Kawser
-    * The air pollution scrapper in GreenOrNot by Pol Sans
+    * The air pollution scrapper in GreenOrNot by Pol Sans with major contributions
     * A code in ongoing to scrapp images of cancer risks by canton, by Sylvain Sorrin
-  * The data was assembled by Edouard Debonneuil. The statistics for SMR where put in place with the help of Adrien Helary
+  * The data was searched and assembled by Edouard Debonneuil and, at least in terms of suggestions, by the organizers of Epidemium and of the challenge. The statistics for SMR where put in place with the help of Adrien Helary
 * **Coupling of organizations**
   * The "animation" folder contains
     * A summary of Epidemium v1 and v2 data for such challenges
