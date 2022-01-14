@@ -2,7 +2,7 @@
 
 Where to find what and who did what:
 * **Summaries**
-  * The poster is here above in three formats: [ppt](OpenData4Health-poster.pptx) [pdf](OpenData4Health-poster.pdf) [image](OpenData4Health-poster.png)
+  * The poster is here above in [pdf](OpenData4Health-poster.pdf)
   * The video is here above and also shows the poster: [video](OpenData4Health-video.mp4)
   * [OpenData4Health.org](https://www.opendata4health.org) was created and the content is copied here above (OpenData4Health-web, redirection added at top of html)
 * **Organization of files**
